@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Mohamed Shazan">
+    <meta name="description" content="/">
+    <meta name="keywords" content="blog,developer,personal,technology">
+
+    <meta property="og:site_name" content="Mohamed Shazan">
+    <meta property="og:title" content="
+  Simple tips to Optimize Web Site Performance - Mohamed Shazan
+">
+    <meta property="og:description" content="Simple and short tips">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/posts/web-performance-optimization/">
+    <meta property="og:image" content="/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="/posts/web-performance-optimization/">
+    <meta name="twitter:image" content="/">
+
+    <base href="/posts/web-performance-optimization/">
+    <title>
+  Simple tips to Optimize Web Site Performance - Mohamed Shazan
+</title>
+
+    <link rel="canonical" href="/posts/web-performance-optimization/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Mohamed Shazan">
+      <link href="/index.xml" rel="feed" type="application/rss+xml" title="Mohamed Shazan" />
+    
+
+    <meta name="generator" content="Hugo 0.81.0" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Mohamed Shazan</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/projects">Projects</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Simple tips to Optimize Web Site Performance</h1>
+      <h2 class="date">February 1, 2021</h2>
+
+      
+    </header>
+
+    <h3 id="using-css-sprites-and-reduce-resource-fetches-in-a-website">Using CSS Sprites and reduce resource fetches in a website</h3>
+<p>Ever noticed you do multiple fetches to get lots of icons and your site has to wait for all fetches to complete therefore increasing site startup time.</p>
+<p>To solve this images/icons are packed into a sprite sheet to reduce the number of image resources that need to be fetched in order to display a page.</p>
+<p>For more technical details <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS">Click Here</a>.</p>
+<h3 id="using-http2-https-over-plaintext-http">Using HTTP2 (HTTPS) over plaintext HTTP</h3>
+<p>HTTP2 uses a binary payload over the HTTP plaintext payload binary is faster for the browser to parser therefore faster for the browser to render</p>
+<h3 id="using-a-compression-algorithm-to-compress-assets-sent-over-http">Using a compression algorithm to compress assets sent over HTTP</h3>
+<p>This is usually a web server configuration most web servers do this by default if configured properly.
+Compression algorithms consists of gzip , bzip2 ,brotli with brotli being the best. 
+Chrome doesn&rsquo;t allow brotli over HTTP 1.1 or lower therefore making switching to HTTP2 an ideal solution.</p>
+
+  </article>
+
+  <br/>
+
+  
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mohamed_shazan" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=%2fposts%2fweb-performance-optimization%2f&ref_src=twsrc%5Etfw&text=Simple%20tips%20to%20Optimize%20Web%20Site%20Performance Mohamed%20Shazan&tw_p=tweetbutton&url=%2fposts%2fweb-performance-optimization%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=%2fposts%2fweb-performance-optimization%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        
+        
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=%2fposts%2fweb-performance-optimization%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+    
+     © 2021    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/naro143/hugo-coder-portfolio">CoderPortfolio</a>. 
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=%2fposts%2fweb-performance-optimization%2f&ref_src=twsrc%5Etfw&text=Simple%20tips%20to%20Optimize%20Web%20Site%20Performance Mohamed%20Shazan&tw_p=tweetbutton&url=%2fposts%2fweb-performance-optimization%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=%2fposts%2fweb-performance-optimization%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        
+        
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=%2fposts%2fweb-performance-optimization%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="/js/app.js"></script>
+  
+  </body>
+</html>
