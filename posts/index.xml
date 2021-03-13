@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mohamed Shazan</title>
-    <link>/posts/</link>
+    <link>https://msmshazan.github.io/posts/</link>
     <description>Recent content in Posts on Mohamed Shazan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Feb 2021 10:58:11 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Feb 2021 10:58:11 +0530</lastBuildDate><atom:link href="https://msmshazan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple tips to Optimize Web Site Performance</title>
-      <link>/posts/web-performance-optimization/</link>
+      <link>https://msmshazan.github.io/posts/web-performance-optimization/</link>
       <pubDate>Mon, 01 Feb 2021 10:58:11 +0530</pubDate>
       
-      <guid>/posts/web-performance-optimization/</guid>
+      <guid>https://msmshazan.github.io/posts/web-performance-optimization/</guid>
       <description>Using CSS Sprites and reduce resource fetches in a website Ever noticed you do multiple fetches to get lots of icons and your site has to wait for all fetches to complete therefore increasing site startup time.
 To solve this images/icons are packed into a sprite sheet to reduce the number of image resources that need to be fetched in order to display a page.
 For more technical details Click Here.</description>
